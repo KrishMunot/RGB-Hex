@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>RGB to Hex Color Code</title>
+
+<h1>RGB <i class="fa fa-arrows-h fa-lg"></i> Hex Code</h1>
+<aside>A simple converter between RGB and hex color codes.</aside>
+
+<div class="row">
+
+<div class="col-md-2"></div>
+
+<div class="col-md-4"> <!-- rgb to hex -->
+<h2>RGB to Hex</h2>
+
+<div class="input-group input-group-lg">
+	<span class="input-group-addon">R</span>
+	<input type="text" class="form-control left-red" placeholder="">
+</div>
+<br>
+<div class="input-group input-group-lg">
+	<span class="input-group-addon">G</span>
+	<input type="text" class="form-control left-green" placeholder="">
+</div>
+<br>
+<div class="input-group input-group-lg">
+	<span class="input-group-addon">B</span>
+	<input type="text" class="form-control left-blue" placeholder="">
+</div>
+<br>
+<div id="leftsubmit" class='btn btn-default'>OK</div>
+<br><br>
+<span id="leftmsg"></span>
+<div class="input-group input-group-lg leftanswer">
+	<span class="input-group-addon">#</span>
+	<input type="text" class="form-control left-hex" id="lefthex" placeholder="">
+</div>
+
+</div>
+
+<div class="col-md-4"> <!-- hex to rgb -->
+<h2>Hex to RGB</h2>
+
+<div class="input-group input-group-lg">
+	<span class="input-group-addon">#</span>
+	<input type="text" class="form-control right-hex" placeholder="">
+</div>
+<br>
+<div id="rightsubmit" class='btn btn-default'>OK</div>
+<br><br>
+<span id="rightmsg"></span>
+<div class="input-group input-group-lg rightanswer">
+	<span class="input-group-addon">R</span>
+	<input type="text" class="form-control right-red" placeholder="">
+</div>
+<br>
+<div class="input-group input-group-lg rightanswer">
+	<span class="input-group-addon">G</span>
+	<input type="text" class="form-control right-green" placeholder="">
+</div>
+<br>
+<div class="input-group input-group-lg rightanswer">
+	<span class="input-group-addon">B</span>
+	<input type="text" class="form-control right-blue" placeholder="">
+</div>
+
+</div>
+
+<div class="col-md-2"></div>
+
+</div> <!-- close row -->
+
+</div> <!-- close container -->
+
+<script src="script.js"></script>
+</body>
+
+</html>
